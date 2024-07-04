@@ -1,0 +1,33 @@
+.table {
+  border-collapse: collapse;
+  width: 450px;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background-color: #ffffff;
+}
+
+.tableHeader {
+  background-color: #292929;
+}
+
+.tableRow {
+  border: 1px solid #292929;
+}
+
+.tableTh {
+  color: #ffffff;
+  text-align: center;
+}
+
+.tableTd {
+  border: 1px solid #292929;
+  text-align: left;
+  padding-left: 50px;
+  width: calc(100% / 3);
+  text-transform: capitalize;
+}
+
+.tableRow:nth-child(2n) {
+  background-color: #d8d8d8;
+}

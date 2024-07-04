@@ -1,13 +1,15 @@
 .friendsList {
-  margin-top: 30px;
   display: flex;
-  gap: 8px;
-  width: 450px;
+  flex-direction: row;
+  gap: 4px;
+  width: 370px;
+  margin: 10px auto;
+  list-style: none;
 }
 
 .friendsItem {
   background-color: #ffffff;
-  padding: 15px;
+  padding: 5px;
   border: 2px solid #292929;
   border-radius: 5px;
 }

@@ -1,13 +1,12 @@
 .table {
   border-collapse: collapse;
-  width: 450px;
+  width: 330px;
   margin: 0 auto;
-  margin-top: 30px;
   margin-bottom: 30px;
   background-color: #ffffff;
 }
 
-.tableHeader {
+.tableName {
   background-color: #292929;
 }
 
@@ -23,7 +22,7 @@
 .tableTd {
   border: 1px solid #292929;
   text-align: left;
-  padding-left: 50px;
+  padding-left: 30px;
   width: calc(100% / 3);
   text-transform: capitalize;
 }

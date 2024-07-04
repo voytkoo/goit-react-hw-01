@@ -1,22 +1,22 @@
 .profile {
-  border: 5px solid #252525;
+  border: 3px solid #252525;
   border-radius: 10px;
   margin: 0 auto;
-  width: 350px;
+  width: 300px;
   background-color: #ffffff;
   overflow: hidden;
-  margin-top: 30px;
+  margin-top: 15x;
+  list-style: none;
 }
 
-.profileInfo {
+.info {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 25px;
-  padding-bottom: 10px;
+  padding-top: 10px;
 }
 
-.avatar {
+.img {
   border-radius: 50%;
   width: 150px;
   height: 150px;
@@ -26,31 +26,46 @@
 .username {
   font-weight: bold;
   font-size: 30px;
-  padding-top: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
-.details {
-  font-size: 20px;
+.email {
+  font-size: 25px;
   color: #979797;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.place {
+  font-weight: regular;
+  font-size: 30px;
+  color: #838181;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
-.statsList {
+.list {
   display: flex;
+  flex-direction: row;
   background-color: #d0caca;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
 }
 
-.stats {
+.item {
   border-top: 2px solid #666666;
   border-left: 2px solid #666666;
   width: calc(100% / 3);
   display: flex;
   margin: 0 auto;
   flex-direction: column;
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   align-items: center;
-  font-weight: 500;
+  font-weight: 450;
   font-size: 14px;
+  list-style: none;
   &:first-child {
     border-left: none;
   }
